@@ -1,6 +1,10 @@
+# Lights Addon
+- Integrates with rgb lightbulbs via home assistant
+- More events coming when boze api updates in 2.0
 
-# Example Addon
 
-Example 1.21.8 addon for the Boze Addon API
-
-This could also be used as a template, although it's reccomended you start from scratch (an empty fabric mod) and use this as a reference instead
+Ts requires configuration
+In your minecraft folder's boze folder, make a ha.token file with exactly 3 lines:
+Long term Home assistant token without "Bearer "
+Your home assistant endpoint (ex. https://192.168.1.100:8123)
+And your light bulb id (ex. light.pc_room)
